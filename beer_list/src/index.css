@@ -1,0 +1,80 @@
+.Beers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Beer_Display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  width: 275px;
+  padding: 25px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+button:focus {
+  background-color: green;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Header {
+  height: 150px;
+  width: 150px;
+  border: 1px solid orange;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+}
+
+.Images {
+  height: 175px;
+}
+
+.tagline {
+  width: 200px;
+}
+
+.Title {
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: -150px;
+}
+
+s {
+  font-size: 175px;
+  margin-top: 157px;
+  color: red;
+}
+
+.SubHeader {
+  margin-top: -200px;
+  text-align: center;
+  font-size: 50px;
+}
